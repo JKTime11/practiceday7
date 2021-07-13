@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Detect Network Connection</title>
+        <style>
+            body {
+                min-height: 200px;
+            }
+            button, p {
+                margin: 20px;
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>Check your network connection status</p>
+        <button onclick="getNetworkStatus()">Get Network Status</button>
+        <button onclick="checkCookieEnabled()">Check Cookie Enabled</button>
+        <button onclick="checkLanguage()">Check Language</button>
+        <p id='result'></p>
+        <script src="js/navigator.js"></script>
+    </body>
+</html>
